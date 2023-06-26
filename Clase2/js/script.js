@@ -10,10 +10,10 @@
 // }
 
 
-lenguajeRequerido = 'JS'
+let lenguajeRequerido = 'JS'
 let idiomaRequerido = 'frances'
 
-if ((lenguajeRequerido = 'JS' )&&(idiomaRequerido = 'frances')){
+if ((lenguajeRequerido == 'JS' )&&(idiomaRequerido == 'frances')){ // Usar ===?
     console.log('Puede Acceder al puesto')
 } else{
     console.warn('Debe cumplir con todos los requisitos.')
