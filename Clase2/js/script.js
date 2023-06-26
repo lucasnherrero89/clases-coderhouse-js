@@ -10,11 +10,19 @@
 // }
 
 
-let lenguajeRequerido = 'JS'
-let idiomaRequerido = 'frances'
+// let lenguajeRequerido = 'JS'
+// let idiomaRequerido = 'frances'
+//
+// // noinspection EqualityComparisonWithCoercionJS
+// if ((lenguajeRequerido == 'JS' &&(idiomaRequerido='Ingles'))(idiomaRequerido == 'frances')){ // Usar ===?
+//     console.log('Puede Acceder al puesto')
+// } else{
+//     console.warn('Debe cumplir con todos los requisitos.')
+// }
 
-if ((lenguajeRequerido == 'JS' )&&(idiomaRequerido == 'frances')){ // Usar ===?
-    console.log('Puede Acceder al puesto')
-} else{
-    console.warn('Debe cumplir con todos los requisitos.')
+
+// CICLOS
+
+for (let i=0;i<10;i++){
+    console.log(i)
 }
